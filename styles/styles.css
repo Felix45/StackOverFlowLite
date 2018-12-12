@@ -142,6 +142,18 @@ div.row::after {
 	padding: 0 10px;
 
 }
+
+.topic-header .post-question{
+	float: right;
+	margin-bottom: 20px;
+	background-color: #07C;
+	color: #fff;
+	padding: 10px;
+	margin-right: 10px;
+}
+.topic-header .post-question a{
+	color:#fff;
+}
 .topic-questions .row a{
 	color: #fff;
 	padding: 5px 10px;
