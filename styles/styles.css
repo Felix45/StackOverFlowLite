@@ -71,8 +71,20 @@ div.row::after {
 .text-center{
 	text-align: center;
 }
+.header{
+	position: fixed;
+	left:0;
+	top:0;
+	width: 100%;
+	background-color: #fff;
+	border-bottom: 1px solid #ddd;
+	box-shadow: 5px 5px 5px #ddd;
+	-webkit-box-shadow: 5px 5px 5px #ddd;
+	-moz-box-shadow: 5px 5px 5px #ddd;
+
+}
 .header img{
-	width: 100px;
+	width: 60px;
 	display: block;
 	margin: auto;
 }
@@ -116,7 +128,9 @@ div.row::after {
 	padding: 10px 10px 10px 0px;
 	border-bottom: 1px solid #ddd;
 }
-
+.questions{
+	margin-top: 65px;
+}
 .topic-questions{
 	padding: 5px 0px;
 	border-bottom: 1px solid #ddd;
@@ -124,7 +138,7 @@ div.row::after {
 }
 .topic-questions .row a{
 	color: #fff;
-	padding: 10px;
+	padding: 5px 10px;
 	background-color: #ddd;
 }
 .topic-questions .text-center p:first-child{
@@ -139,7 +153,7 @@ div.row::after {
 .topic-questions .text-center p:last-child{
 	
 }
-.topic-all-questions ul{
+.topic-all-questions ul , .footer .footer-links{
 	list-style-type: number;
 	padding-left: 50px;
 	text-align: justify;
@@ -153,6 +167,31 @@ div.row::after {
 }
 .topic-all-questions ul li a{
 	color: #07C;
+}
+.footer{
+	color: #000;
+	margin-top:20px;
+	padding: 0 50px;
+	padding-bottom:50px;
+	background-color: #ddd;
+}
+.footer .topic-header{
+	padding-right: 40px;
+}
+.footer .topic-header h3{
+	border-bottom: 1px dotted #fff;
+}
+.footer .footer-links{
+	padding: 0;
+	list-style-type: none;
+}
+.footer .footer-links li{
+	padding: 10px 0;
+	border-bottom: 1px dotted #fff;
+}
+.footer .footer-links li a{
+	color: #000;
+	display: block;
 }
 @media(min-width: 768px) and (max-width: 991px){
 	.container{
