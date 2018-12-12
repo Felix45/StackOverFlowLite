@@ -389,10 +389,11 @@ div.row::after {
 		border: 1px solid #ddd;
 		background-color: #ddd;	
 	}
-	.topic-all-questions ul , .footer .footer-links{
+	.topic-all-questions ul {
 		list-style-type: number;
 		padding-left: 50px;
 		text-align: justify;
 		
 	}
+
 }
