@@ -6,6 +6,10 @@
 a{
 	text-decoration: none;
 }
+p , div , span{
+	font-size: 14px;
+	color: #000;
+}
 .container{
 	width: auto;
 }
@@ -15,6 +19,43 @@ div[class *= "col-"]{
 	padding:10px 0;
 	/*display: inline-block;*/
 }
+
+	div.col-xs-1{
+	 	width: 8.33%;
+	}
+	div.col-xs-2{
+	     	width: 16.67%;
+	}
+	div.col-xs-3{
+		width: 25%;
+	}
+	div.col-xs-4{
+		width: 33.33%;
+	}
+	div.col-xs-5{
+		width: 41.67%;
+	}
+	div.col-xs-6{
+		width: 50%;
+	}
+	div.col-xs-7{
+		width: 58.33%;
+	}
+	div.col-xs-8{
+		width: 66.67%;
+	}
+	div.col-xs-9{
+		width: 75%;
+	}
+	div.col-xs-10{
+		width: 83.33%;
+	}
+	div.col-xs-11{
+		width: 91.67%;
+	}
+	div.col-xs-12{
+		width: 100%;
+	}
 div.row{
 	margin-left: -15px;
 	margin-right: -15px;
@@ -27,7 +68,9 @@ div.row::after {
   display: table;
 }
 
-
+.text-center{
+	text-align: center;
+}
 .header img{
 	width: 100px;
 	display: block;
@@ -68,6 +111,48 @@ div.row::after {
 	border-radius: 5px;
 	-moz-border-radius: 5px;
 	
+}
+.topic-header h3{
+	padding: 10px 10px 10px 0px;
+	border-bottom: 1px solid #ddd;
+}
+
+.topic-questions{
+	padding: 5px 0px;
+	border-bottom: 1px solid #ddd;
+	
+}
+.topic-questions .row a{
+	color: #fff;
+	padding: 10px;
+	background-color: #ddd;
+}
+.topic-questions .text-center p:first-child{
+	color: #fff;
+	width:40px;
+	margin: auto;
+	padding: 10px;
+	border-radius: 50%;
+	background-color: #ddd;
+
+}
+.topic-questions .text-center p:last-child{
+	
+}
+.topic-all-questions ul{
+	list-style-type: number;
+	padding-left: 50px;
+	text-align: justify;
+	
+}
+.topic-all-questions ul li{
+	color: #07C;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	border-bottom: 1px dotted #ddd;
+}
+.topic-all-questions ul li a{
+	color: #07C;
 }
 @media(min-width: 768px) and (max-width: 991px){
 	.container{
@@ -118,7 +203,42 @@ div.row::after {
 @media(min-width: 992px) and (max-width: 1199px){
 	.container{
 		width: 970px;
-
+	}
+	div.col-md-1{
+	 	width: 8.33%;
+	}
+	div.col-md-2{
+	     	width: 16.67%;
+	}
+	div.col-md-3{
+		width: 25%;
+	}
+	div.col-md-4{
+		width: 33.33%;
+	}
+	div.col-md-5{
+		width: 41.67%;
+	}
+	div.col-md-6{
+		width: 50%;
+	}
+	div.col-md-7{
+		width: 58.33%;
+	}
+	div.col-md-8{
+		width: 66.67%;
+	}
+	div.col-md-9{
+		width: 75%;
+	}
+	div.col-md-10{
+		width: 83.33%;
+	}
+	div.col-md-11{
+		width: 91.67%;
+	}
+	div.col-md-12{
+		width: 100%;
 	}
 }
 
