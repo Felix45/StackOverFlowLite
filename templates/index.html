@@ -4,7 +4,7 @@
 	   <title> Stack Overflow Lite </title>
 	   <meta name="viewport" content="width=device-width , initial-scale=1.0">
 	   <meta charset="utf-8">
-	   <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+	   <link rel="stylesheet" type="text/css" href="{{ url_for('static' , filename='styles/styles.css') }}" />
 	</head>
 	<body>
 	  <div class="container">
@@ -13,8 +13,8 @@
   	      <!-- Start logo section -->
  	      <div class="col-lg-2 col-md-1 col-sm-1 col-xs-2">
 		<div class="logo">
-		 <a href="index.html">
-		  <img src="images/logo.png" alt="Stack Overflow Lite" />
+		 <a href="/">
+		  <img src="{{ url_for('static' , filename='images/logo.png') }}" alt="Stack Overflow Lite" />
 		</a>
 		</div>
   	       </div>
@@ -35,7 +35,7 @@
 		<!--Start login link -->
 	         <div class="col-lg-2 col-md-2 col-sm-2 col-xs-4">
 		    <div class="login">
-			<a href="login.html"> Login </a>
+			<a href="{{ url_for('login') }}"> Login </a>
 	            </div>
 		</div>
 		<!-- End login section -->

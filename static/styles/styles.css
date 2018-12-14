@@ -86,7 +86,7 @@ div.row::after {
 
 }
 .header img{
-	width: 60px;
+	height: 40px;
 	display: block;
 	margin: auto;
 }
